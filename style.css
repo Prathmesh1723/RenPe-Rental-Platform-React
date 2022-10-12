@@ -1,4 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+.containerTitle{
+    padding-top: 30px; 
+    text-align: center;
+    text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0,0,0,0.15);
+}
+.container1{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+}
+.container2{
+    padding-bottom: 90px;
+}
+#Section5{
+    padding-top: 40px; 
+    padding-left: 50px; 
+}
+#Section7{
+    padding-top: 40px; 
+    padding-left: 50px; 
+}
+.heading{
+    font-family: Poppins;
+    font-weight: 650;
+}
+.card-title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    font-family: Poppins;
+    font-weight: 550;
+}
+.card-subtitle{
+    padding-left: 15px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.card {
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+.container1 .card img {
+    width: 53%;
+    object-fit: fill;
+    border-top-right-radius: 6%;
+    border-bottom-right-radius: 6%;
+    border-top-left-radius: 0%;
+}
+.container2 .card img{
+    height: 50%;
+    object-fit: fill;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+.padding-2{
+    padding-right:10px;
+    padding-left:10px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
