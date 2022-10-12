@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/* Prathmesh */
 .containerTitle{
     padding-top: 30px; 
     text-align: center;
@@ -22,6 +23,7 @@
 .heading{
     font-family: Poppins;
     font-weight: 650;
+    text-align: center;
 }
 .card-title{
     padding-top: 50px;
@@ -55,13 +57,14 @@
     padding-right:10px;
     padding-left:10px;
 }
-
+/* Vedant */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
 }
+
 body {
   display:inline;
   justify-content: center;
@@ -75,15 +78,17 @@ body {
 .container_focus1 {
   display: flex;
   width: 100%;
-  padding-left: 280px;
+  padding-left: 150px;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .container_property1 {
   display: flex;
   width: 100%;
-  padding-left: 210px;
+  padding-left: 80px;
   flex-wrap: wrap;
+  padding-bottom: 50px;
 }
 
 .card_focus {
@@ -110,6 +115,8 @@ body {
   width: 200px;
   height: 200px;
   object-fit:cover;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .card_property-header img {
@@ -168,9 +175,10 @@ body {
 }
 
 .title{
-  padding-top: 30px; 
+  padding-top: 0px; 
   text-align: center;
   text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0,0,0,0.15);
+  padding-bottom: 50px;
 }
 
 .card_property-body p{
@@ -181,6 +189,7 @@ body {
   text-align: center;
 }
 
+/* Satadru */
 .navbar .container-fluid{
     height: 100px;
     margin-right: 100px;
