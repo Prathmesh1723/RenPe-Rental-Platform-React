@@ -6,8 +6,7 @@ Final Project for INFO 6150 Fall 2022 Web Design and User Experience Engineering
 
 ### Purpose of this project
 
-It is a well known fact that upcoming International Students struggle finding a place to live.
-<br>
+It is a well known fact that upcoming International Students struggle finding a place to live. <br>
 
 Real Pe intends to ameliorate the erstwhile conundrum by providing real time available properties or spaces in the USA!
 
