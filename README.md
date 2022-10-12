@@ -16,3 +16,17 @@ Real Pe intends to ameliorate the erstwhile conundrum by providing real time ava
 1. HTML 5
 2. CSS3
 3. BootStrap 3/4/5
+
+### BootStrap Components Used
+
+1. Cards
+2. NAV
+3. Carousel
+4. Dropdown
+5. Thumbnail
+6. ScrollSpy
+7. Typography
+8. Form
+9. Buttons
+10. Tool-tips
+11. Jumbrotrons
