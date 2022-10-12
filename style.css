@@ -57,8 +57,10 @@
     padding-right:10px;
     padding-left:10px;
 }
+
 /* Vedant */
-* {
+
+*{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -215,3 +217,9 @@ body {
 .search{
     margin: 100px;
 }
+
+/* footer */
+
+
+
+/* end footer styling */
