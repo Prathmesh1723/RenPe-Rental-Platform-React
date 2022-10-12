@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 body {
   display:inline;
@@ -119,4 +122,30 @@ body {
 
 .buttonAlign{
   text-align: center;
+}
+
+.navbar .container-fluid{
+    height: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.container-fluid .collapse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand span{
+    font-weight: 600;
+    color: rgb(89, 166, 255);
+}
+
+.btnSign .btn-primary{
+    background-color: rgb(89, 166, 255);
+    border-color: rgb(89, 166, 255);
+}
+
+.search{
+    margin: 100px;
 }
