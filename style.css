@@ -254,5 +254,10 @@ ul>li>a {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.text-style--footer>a {
+  text-decoration: none;
+  color: #10182f;
+  font-weight: 500;
+}
 
 /* end footer styling */
