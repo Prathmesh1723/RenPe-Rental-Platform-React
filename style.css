@@ -1,66 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 /* Prathmesh */
-.containerTitle{
-    padding-top: 30px; 
-    text-align: center;
-    text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0,0,0,0.15);
+.containerTitle {
+  padding-top: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0, 0, 0, 0.15);
 }
-.container1{
-    background-color: aliceblue;
-    padding-bottom: 50px;
+
+.container1 {
+  background-color: aliceblue;
+  padding-bottom: 50px;
 }
-.container2{
-    padding-bottom: 90px;
+
+.container2 {
+  padding-bottom: 90px;
 }
-#Section5{
-    padding-top: 40px; 
-    padding-left: 50px; 
+
+#Section5 {
+  padding-top: 40px;
+  padding-left: 50px;
 }
-#Section7{
-    padding-top: 40px; 
-    padding-left: 50px; 
+
+#Section7 {
+  padding-top: 40px;
+  padding-left: 50px;
 }
-.heading{
-    font-family: Poppins;
-    font-weight: 650;
-    text-align: center;
+
+.heading {
+  font-family: Poppins;
+  font-weight: 650;
+  text-align: center;
 }
-.card-title{
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 15px;
-    font-family: Poppins;
-    font-weight: 550;
+
+.card-title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  font-family: Poppins;
+  font-weight: 550;
 }
-.card-subtitle{
-    padding-left: 15px;
-    font-family: Poppins;
-    font-weight: 500;
+
+.card-subtitle {
+  padding-left: 15px;
+  font-family: Poppins;
+  font-weight: 500;
 }
+
 .card {
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
+
 .container1 .card img {
-    width: 53%;
-    object-fit: fill;
-    border-top-right-radius: 6%;
-    border-bottom-right-radius: 6%;
-    border-top-left-radius: 0%;
+  width: 53%;
+  object-fit: fill;
+  border-top-right-radius: 6%;
+  border-bottom-right-radius: 6%;
+  border-top-left-radius: 0%;
 }
-.container2 .card img{
-    height: 50%;
-    object-fit: fill;
-    border-top-right-radius: 5%;
-    border-top-left-radius: 5%;
+
+.container2 .card img {
+  height: 50%;
+  object-fit: fill;
+  border-top-right-radius: 5%;
+  border-top-left-radius: 5%;
 }
-.padding-2{
-    padding-right:10px;
-    padding-left:10px;
+
+.padding-2 {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 /* Vedant */
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -68,7 +80,7 @@
 }
 
 body {
-  display:inline;
+  display: inline;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -80,17 +92,19 @@ body {
 .container_focus1 {
   display: flex;
   width: 100%;
-  padding-left: 150px;
+  /* padding-left: 150px; */
   flex-wrap: wrap;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .container_property1 {
   display: flex;
   width: 100%;
-  padding-left: 80px;
+  /* padding-left: 80px; */
   flex-wrap: wrap;
   padding-bottom: 50px;
+  justify-content: center;
 }
 
 .card_focus {
@@ -116,7 +130,7 @@ body {
 .card_focus-header img {
   width: 200px;
   height: 200px;
-  object-fit:cover;
+  object-fit: cover;
   margin-left: 50px;
   margin-top: 20px;
 }
@@ -136,7 +150,7 @@ body {
   min-height: 200px;
 }
 
-.card_focus-body button{
+.card_focus-body button {
   width: 100px;
   height: 40px;
   text-align: center;
@@ -172,50 +186,51 @@ body {
 .user_property-info h5 {
   margin: 0;
 }
+
 .user_property-info small {
   color: #545d7a;
 }
 
-.title{
-  padding-top: 0px; 
+.title {
+  padding-top: 0px;
   text-align: center;
-  text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0,0,0,0.15);
+  text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0, 0, 0, 0.15);
   padding-bottom: 50px;
 }
 
-.card_property-body p{
+.card_property-body p {
   font-size: 110%;
 }
 
-.buttonAlign{
+.buttonAlign {
   text-align: center;
 }
 
 /* Satadru */
-.navbar .container-fluid{
-    height: 100px;
-    margin-right: 100px;
-    margin-left: 100px;
+.navbar .container-fluid {
+  height: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-.container-fluid .collapse{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-fluid .collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.navbar-brand span{
-    font-weight: 600;
-    color: rgb(89, 166, 255);
+.navbar-brand span {
+  font-weight: 600;
+  color: rgb(89, 166, 255);
 }
 
-.btnSign .btn-primary{
-    background-color: rgb(89, 166, 255);
-    border-color: rgb(89, 166, 255);
+.btnSign .btn-primary {
+  background-color: rgb(89, 166, 255);
+  border-color: rgb(89, 166, 255);
 }
 
-.search{
-    margin: 100px;
+.search {
+  margin: 100px;
 }
 
 /* footer */
