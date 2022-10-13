@@ -1,5 +1,63 @@
+/* importing google fonts from the project */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap%27);
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+/* Testimonial Section Styling */
+
+.testimonial-section {
+    text-align: center;
+    padding: 2.5rem;
+    width: 100%;
+    background-color: #f7f8fc;
+}
+
+.testimonial-section .our--testimonials {
+    color: #829ff8;
+}
+
+.client--testimonials__container {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+/* Styling Footer Section */
+
+footer {
+    background-color: white;
+    width: 100%;
+    display: grid;
+    padding: 7rem;
+    /* display and positioning properties */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-evenly; */
+    /* grid ends here */
+}
+
+/* Footer Text Styling */
+.logo--text {
+    color: #829ff8;
+    font-weight: 600;
+
+}
+
+.description {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+
+ul>li {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 0.97rem;
+    margin-top: 0.3rem;
 }
