@@ -23,7 +23,7 @@ Real Pe intends to ameliorate the erstwhile conundrum by providing real time ava
 3. Carousel
 4. Dropdown
 5. Thumbnail
-6. ScrollSpy
+6. Popper
 7. Typography
 8. Form
 9. Buttons
