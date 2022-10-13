@@ -1,0 +1,28 @@
+/* importing google fonts from the project */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap%27);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+/* Testimonial Section Styling */
+
+.testimonial-section {
+    text-align: center;
+    padding: 2.5rem;
+    width: 100%;
+    background-color: #f7f8fc;
+}
+
+.testimonial-section .our--testimonials {
+    color: #829ff8;
+}
+
+.client--testimonials__container {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
