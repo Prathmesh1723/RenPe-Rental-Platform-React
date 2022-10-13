@@ -26,38 +26,3 @@
     padding: 100px;
     justify-content: space-around;
 }
-
-/* Styling Footer Section */
-
-footer {
-    background-color: white;
-    width: 100%;
-    display: grid;
-    padding: 7rem;
-    /* display and positioning properties */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* justify-content: space-evenly; */
-    /* grid ends here */
-}
-
-/* Footer Text Styling */
-.logo--text {
-    color: #829ff8;
-    font-weight: 600;
-
-}
-
-.description {
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: 400;
-}
-
-ul>li {
-    list-style-type: none;
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.5);
-    font-weight: 500;
-    font-size: 0.97rem;
-    margin-top: 0.3rem;
-}
