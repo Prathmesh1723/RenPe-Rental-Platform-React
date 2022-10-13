@@ -28,7 +28,7 @@
   padding-right: 20px;
 }
 
-#Section10{
+#Section10 {
   padding-top: 100px;
   padding-bottom: 140px;
 }
@@ -65,7 +65,7 @@
   border-top-left-radius: 0%;
 }
 
-.container1 .card{
+.container1 .card {
   border-radius: 5%;
 }
 
@@ -243,6 +243,16 @@ body {
 
 /* footer */
 
+.footer-above {
+  display: flex;
+  justify-items: center;
+}
+
+ul>li>a {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 
 /* end footer styling */
