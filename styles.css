@@ -23,6 +23,5 @@
 
 .client--testimonials__container {
     display: flex;
-    padding: 100px;
     justify-content: space-around;
 }
