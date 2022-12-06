@@ -1,0 +1,20 @@
+.me-auto{
+    font-size: 1rem;
+}
+
+.navbar-Title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    /* color: rgb(89, 166, 255); */
+}
+
+.navbar-Title span{
+    color: rgb(89, 166, 255);
+}
+
+.Sign-in-Btn {
+    width: 10%;
+    font-size:0.875em;
+    min-width: 50px; 
+    max-width: 300px; 
+ }
