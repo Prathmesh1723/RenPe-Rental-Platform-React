@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+import React from 'react';
+import './form.css';
 
-<head>
-  <link rel="icon" href="/imgs/favicon.png" type="/png" />
-  <meta charset="UTF-8" />
-  <title>Rent Pe Form</title>
-  <link rel="stylesheet" href="style2.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
-<body>
-  <div class="container">
+function form() {
+  return (
+    //satadru
+    <div class="form-container">
     <div class="title">RentPe Sign Up</div>
     <div class="content">
       <form action="#">
@@ -66,6 +60,7 @@
       </form>
     </div>
   </div>
-</body>
+  )
+}
 
-</html>
+export default form

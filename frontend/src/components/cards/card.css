@@ -1,0 +1,163 @@
+.container_focus1 {
+    display: flex;
+    width: 100%;
+    /* padding-left: 150px; */
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  .card-container{
+    font-family: 'Poppins', sans-serif;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f8fc;
+    font-family: 'Poppins', sans-serif;
+    color: #10182f;
+    
+  }
+  
+  .container_property1 {
+    display: flex;
+    width: 100%;
+    /* padding-left: 80px; */
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    justify-content: center;
+  }
+  
+  .card_focus {
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    padding-left: 0;
+  }
+  
+  .card_property {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+  }
+  
+  .card_focus-header img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  
+  .card_property-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card_focus-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    min-height: 200px;
+  }
+  
+  .card_focus-body button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: auto;
+  }
+  
+  .card_property-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    min-height: 200px;
+  }
+  
+  .card_property-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+  }
+  
+  .user_property {
+    display: flex;
+    margin-top: auto;
+  }
+  
+  .user_property img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .user_property-info h5 {
+    margin: 0;
+  }
+  
+  .user_property-info small {
+    color: #545d7a;
+  }
+  
+  .title {
+    padding-top: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 0px #fff, 3px 3px 0px rgba(0, 0, 0, 0.15);
+    padding-bottom: 50px;
+  }
+  
+  .card_property-body p {
+    font-size: 110%;
+  }
+  
+  .buttonAlign {
+    text-align: center;
+  }
+
+  .card_outer{
+    clear: both
+  }
+
+  .card_inner{
+    float: left;
+  }
+
+  .card-subtitle{
+    float: right;
+  }
+
+  .card-featured{
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+  }
+
+  .card-testimonial{
+    display: flex;
+    justify-content: space-evenly;
+    color: #10182f;
+    padding-bottom: 100px;
+  }
+
+  .card-testimonial-body{
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
