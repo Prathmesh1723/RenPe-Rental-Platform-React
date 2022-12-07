@@ -18,7 +18,7 @@ function ColorSchemesExample() {
             <Nav.Link  href="Blog">Blog</Nav.Link>
             <Nav.Link  href="Contact">Contact</Nav.Link>
           </Nav>
-          <Button className='Sign-in-Btn' href="/form" variant="outline-primary">Primary</Button>{''}
+          <Button className='Sign-in-Btn' href="/signup" variant="outline-primary">Sign-up</Button>{''}
         </Container>
       </Navbar>
     </>

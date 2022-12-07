@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../components/navbar/navbar';
-import Carousal from '../../components/carousal/carousal';
+import Carousel from '../../components/carousel/carousel';
 import Searchbar from '../../components/searchbar/searchbar';
 import CardGrid from '../../components/cards/card-grid';
 import Cardlisting from '../../components/cards/card-listing';
@@ -16,7 +16,7 @@ function home() {
     <div>
         <Navbar/>
         <br></br>
-        <Carousal/>
+        <Carousel/>
         <br></br>
         <Searchbar/>
         <br></br>
