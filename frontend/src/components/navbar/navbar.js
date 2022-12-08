@@ -85,7 +85,7 @@ function ColorSchemesExample() {
             <a href="#">Services</a>
           </li>
           <li>
-            <a href="#">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
           <li>
             <a href="/contact">Contact</a>

@@ -9,6 +9,7 @@ import About from "./pages/about/about.js";
 import Rent from "./pages/rent/rent";
 import Buy from "./pages/buy/buy";
 import HowItWorks from "./pages/howItWorks/howItWorks";
+import Blog from "./pages/blog/blog";
 import Contact from "./pages/contact/contact";
 import {
   BrowserRouter as Router,
@@ -35,6 +36,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/howItWorks" element={<HowItWorks />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
       </Routes>
     </Router>
   );
