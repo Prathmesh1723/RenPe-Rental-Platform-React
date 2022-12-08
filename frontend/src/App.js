@@ -22,6 +22,7 @@ import NProgress from "nprogress";
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "./components/Layout/Layout"
 import Listings from "./pages/listing/listing";
+import CreateListing from "./components/admin_components/create-listing";
 
 
 import Home from "./pages/home/home";
@@ -43,6 +44,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/listings" element={<Listings />}></Route>
+        <Route path="/createListing" element={<CreateListing />}></Route>
       </Routes>
     </Router>
   );

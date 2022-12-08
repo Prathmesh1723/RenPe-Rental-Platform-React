@@ -35,8 +35,17 @@ export default class Login extends Component {
             if (data.status == "ok") {
               alert("login successful");
               window.localStorage.setItem("token", data.data);
+              if(email=="Admin@gmail.com"){
+                window.location.href = "/createListing";
+              }
+              else{
               window.location.href = "/";
+              }
             }
+          else if(data.status == "no"){
+            alert("User not found");
+            document.getElementById("LoginPage").reset();
+        }
             else{
               alert("Enter valid details");
             }
@@ -97,7 +106,7 @@ export default class Login extends Component {
           </button>
         </div>
         <p className="forgot-password text-right newUser">
-          New user? <a href="#">Sign Up</a>
+          New user? <a href="/signup">Sign Up</a>
         </p>
       </form>
       <Footer />
