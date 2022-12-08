@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Navbar from '../../components/navbar/navbar';
+import "./signup.css"
 
 export default class SignUp extends Component {
   constructor(props){
@@ -38,7 +40,9 @@ export default class SignUp extends Component {
   
     render() {
     return (
-      <form onSubmit={this.handleSubmit}>
+      <div>
+      <Navbar/>
+      <form className="login" onSubmit={this.handleSubmit}>
         <h3>Sign Up</h3>
 
         <div className="mb-3">
@@ -89,6 +93,7 @@ export default class SignUp extends Component {
           Already registered <a href="/login">sign in?</a>
         </p>
       </form>
+      </div>
     )
   }
 }
