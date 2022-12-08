@@ -1,5 +1,6 @@
 //JSX for About page
 import React from "react";
+
 import "./about.css";
 import Navbar from "../../components/navbar/navbar";
 import Footer from "../../components/footer/footer";
@@ -8,9 +9,14 @@ function about() {
     <div className="about--page--content">
       <Navbar />
       <div className="about--us--box">
+        <div>
+          {/* <img
+            src="../../../public/assets/chilling-illustration.svg"
+            alt="Illustration of a person who is relaxing"
+          /> */}
+        </div>
         <div className="page--header">ABOUT US</div>
         <div className="about--us--information">
-          {/* ToDo: add content for About page later */}
           Weather you do a search for Zillow, Apartment.com or fmh you will
           notice that we beat our biggest competitors in their own game.
           <br></br>
