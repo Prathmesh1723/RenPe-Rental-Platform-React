@@ -18,6 +18,11 @@ import {
   Link,
   Switch,
 } from "react-router-dom";
+import NProgress from "nprogress";
+import { ChakraProvider } from "@chakra-ui/react";
+import Layout from "./components/Layout/Layout"
+import Listings from "./pages/listing/listing";
+
 
 import Home from "./pages/home/home";
 
@@ -37,6 +42,7 @@ function App() {
         <Route path="/howItWorks" element={<HowItWorks />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
+        <Route path="/listings" element={<Listings />}></Route>
       </Routes>
     </Router>
   );
