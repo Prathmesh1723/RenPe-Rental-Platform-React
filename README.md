@@ -30,9 +30,16 @@ Real Pe intends to ameliorate the erstwhile conundrum by providing real time ava
 
 ## Project Stage 2
 
-### This is for our reference only. Main Project will not have this part of the README unless Required
-
 1. Preparing the draft for the frontEnd of this Project
 2. Preparing a database for the use case of our Project
 3. Design and Architecture of project
-4. Design the API's for the above project
+
+### Technologies used:
+
+### MERN STACK
+
+1. MongoDB (Database) 
+2. ExpressJS (Efficiently write server side code)
+3. React (Front-End)
+4. NodeJS (Server side rendering)
+5. ChakraUI
