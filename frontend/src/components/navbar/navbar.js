@@ -1,8 +1,8 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Button from 'react-bootstrap/Button';
-import './navbar.css';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
+import "./navbar.css";
 
 function ColorSchemesExample() {
   return (
@@ -23,7 +23,7 @@ function ColorSchemesExample() {
       </Navbar> */}
 
       {/* try 1 */}
-      
+
       {/* <header role="banner">
       <nav class="navbar navbar-expand-md">
         <div class="container">
@@ -70,25 +70,36 @@ function ColorSchemesExample() {
       {/* try 2 */}
 
       <header>
-		  <a href="/" class="logo">RentPe</a>
+        <a href="/" class="logo">
+          RentPe
+        </a>
 
-      <ul class="navbar">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+        <ul class="navbar">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/about">About Us</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Blog</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
 
-      <div class="main">
-        <a href="/login" class="user">Sign In</a>
-        <a href="/signup">Register</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-      </div>
-	    </header>
-
-
-
+        <div class="main">
+          <a href="/login" class="user">
+            Sign In
+          </a>
+          <a href="/signup">Register</a>
+          <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+      </header>
     </div>
   );
 }
