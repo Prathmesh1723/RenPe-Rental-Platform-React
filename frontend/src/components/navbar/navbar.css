@@ -92,7 +92,11 @@
 
         :root{
             --text-color: black;
-            --main-color: blue;
+            --main-color: rgb(9, 165, 255);
+        }
+
+        span{
+            color: rgb(9, 165, 255);
         }
 
         header{
@@ -126,13 +130,14 @@
         .navbar{
             display: flex;
             padding: 0;
+            margin: 0;
         }
         .navbar a{
             color: var(--text-color);
             font-size: 1.1rem;
-            font-weight: 500;
+            font-weight: 400;
             padding: 0;
-            margin: 0px 30px;
+            margin: 0px 20px;
             transition: all .50s ease;
             text-decoration: none;
             list-style: none;
@@ -148,26 +153,58 @@
             align-items: center;
         }
         .main a{
-            margin-right: 25px;
+            margin-right: 10px;
             margin-left: 10px;
-            color: var(--text-color);
+            /* color: var(--text-color); */
             font-size: 1.1rem;
             font-weight: 500;
             transition: all .50s ease;
             text-decoration: none;
         }
         .user{
+            color: white;
             display: flex;
             align-items: center;
+            border: 2px solid rgb(9, 165, 255);
+            background-color: rgb(9, 165, 255);
+            padding: 3px 25px;
+            border-radius: 25px;
         }
-        .user i{
+
+        .user:hover{
+            color: rgb(9, 165, 255);
+            background-color: white;
+            border: 2px solid rgb(9, 165, 255);
+        }
+
+        .register{
+            border: 2px solid rgb(9, 165, 255);
+            background-color: white;
+            padding: 3px 25px;
+            border-radius: 25px;
+            color: rgb(9, 165, 255);
+        }
+
+        /* .register span{
+            color: rgb(9, 165, 255);
+        } */
+
+        /* .register:hover{
+            color: white;
+            border: 2px solid rgb(9, 165, 255);
+            background-color: rgb(9, 165, 255);
+            padding: 3px 25px;
+            border-radius: 25px;
+        } */
+
+        /* .user i{
             color: var(--main-color);
             font-size: 28px;
             margin-right: 7px;
-        }
-        .main a:hover{
+        } */
+        /* .main a:hover{
             color: var(--main-color);
-        }
+        } */
         #menu-icon{
             font-size: 35px;
             color: var(--text-color);
@@ -198,18 +235,30 @@
                 right: -100%;
                 width: 270px;
                 height: 50px;
-                background: var(--main-color);
+                /* display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                border-radius: 10px;
+                transition: all .50s ease; */
+            }
+            .navbar.open{
+                position: absolute;
+                top: 100%;
+                right: -100%;
+                width: 270px;
+                height: 295px;
+                background: rgb(9, 165, 255);
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-start;
                 border-radius: 10px;
-                transition: all .50s ease;
+                transition: all .50s ease-in-out;
             }
             .navbar a{
                 display: block;
                 margin: 12px 0;
                 padding: 0px 25px;
-                transition: all .50s ease;
+                transition: all .50s ease-in-out;
             }
             .navbar a:hover{
                 color: var(--text-color);
@@ -222,6 +271,7 @@
                 right: 2%;
             }
         }
+
 
 
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from '../../components/navbar/navbar';
+import Footer from '../../components/footer/footer'
 import "./login.css"
 
 export default class Login extends Component {
@@ -94,6 +95,7 @@ export default class Login extends Component {
           New user? <a href="#">Sign Up</a>
         </p>
       </form>
+      <Footer />
       </div>
     )
   }
