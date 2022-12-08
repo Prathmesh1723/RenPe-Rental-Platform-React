@@ -35,7 +35,10 @@ export default class Login extends Component {
             if (data.status == "ok") {
               alert("login successful");
               window.localStorage.setItem("token", data.data);
-              window.location.href = "./userDetails";
+              window.location.href = "/";
+            }
+            else{
+              alert("Enter valid details");
             }
           });
       }
@@ -52,7 +55,8 @@ export default class Login extends Component {
             type="email"
             className="form-control"
             placeholder="Enter email"
-            onChange={(e) => this.setState({ email: e.target.value })}   
+            onChange={(e) => this.setState({ email: e.target.value })}
+            required   
           />
         </div>
 
@@ -63,6 +67,7 @@ export default class Login extends Component {
             className="form-control"
             placeholder="Enter password"
             onChange={(e) => this.setState({ password: e.target.value })}
+            required
           />
         </div>
 
