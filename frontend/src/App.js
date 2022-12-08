@@ -6,6 +6,8 @@ import Form from './pages/form/form';
 import Login from './pages/login/login.component';
 import SignUp from './pages/signup/signup.component';
 import {BrowserRouter as Router, Routes, Route, Link, Switch} from 'react-router-dom';
+import Rent from './pages/rent/rent';
+import Buy from './pages/buy/buy';
 
 
 import Home from './pages/home/home';
@@ -17,6 +19,8 @@ function App() {
         <Route exact path="/" element={<Home />}></Route>
         <Route path='/signup' element={<SignUp />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/rent' element={<Rent />}></Route>
+        <Route path='/buy' element={<Buy />}></Route>
         {/* <Route path='/Contact' element={<Contact />}></Route>
         <Route path='/Jobs' element={<Jobs />}></Route> */}
         <Route path='/Home' element={<Home />}>
