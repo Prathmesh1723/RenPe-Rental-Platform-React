@@ -1,14 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/navbar/navbar';
-import 'bootstrap/dist/css/bootstrap.css';
-import Form from './pages/form/form';
+// import logo from "./logo.svg";
+import "./App.css";
 import Login from './pages/login/login.component';
+import Navbar from "./components/navbar/navbar";
+import "bootstrap/dist/css/bootstrap.css";
 import SignUp from './pages/signup/signup.component';
-import {BrowserRouter as Router, Routes, Route, Link, Switch} from 'react-router-dom';
+import Form from "./pages/form/form";
+import About from "./pages/about/about.js";
+import HowItWorks from "./pages/howItWorks/howItWorks";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Switch,
+} from "react-router-dom";
 
-
-import Home from './pages/home/home';
+import Home from "./pages/home/home";
 
 function App() {
   return (
@@ -19,8 +26,8 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         {/* <Route path='/Contact' element={<Contact />}></Route>
         <Route path='/Jobs' element={<Jobs />}></Route> */}
-        <Route path='/Home' element={<Home />}>
-        </Route>
+        <Route path="/Home" element={<Home />}></Route>
+        <Route path="/howItWorks" element={<HowItWorks />}></Route>
       </Routes>
     </Router>
   );
