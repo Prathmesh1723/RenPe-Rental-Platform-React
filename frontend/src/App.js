@@ -6,8 +6,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import SignUp from "./pages/signup/signup.component";
 import Form from "./pages/form/form";
 import About from "./pages/about/about.js";
-import {BrowserRouter as Router, Routes, Route, Link, Switch} from 'react-router-dom';
 import Rent from './pages/rent/rent';
+import Buy from "./pages/buy/buy";
 import HowItWorks from "./pages/howItWorks/howItWorks";
 import {
   BrowserRouter as Router,
