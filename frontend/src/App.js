@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/navbar";
 import "bootstrap/dist/css/bootstrap.css";
 import Form from "./pages/form/form";
 import About from "./pages/about/about.js";
+import HowItWorks from "./pages/howItWorks/howItWorks";
 import {
   BrowserRouter as Router,
   Routes,
@@ -24,6 +25,7 @@ function App() {
         {/* <Route path='/Contact' element={<Contact />}></Route>
         <Route path='/Jobs' element={<Jobs />}></Route> */}
         <Route path="/Home" element={<Home />}></Route>
+        <Route path="/howItWorks" element={<HowItWorks />}></Route>
       </Routes>
     </Router>
   );

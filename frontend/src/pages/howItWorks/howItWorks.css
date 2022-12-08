@@ -1,0 +1,11 @@
+/* importing google fonts poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+/* Styling how it works text */
+.how-it-works-text {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
