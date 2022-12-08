@@ -11,6 +11,7 @@ import Cardblog from '../../components/cards/card-blog';
 import CardTestimonial from '../../components/cards/card-testimonials';
 import Footer from '../../components/footer/footer';
 
+
 function home() {
   return (
     <div>
@@ -48,7 +49,7 @@ function home() {
         <CardTestimonial/>
         <Footer/>
     </div>
-  )
+  );
 }
 
-export default home
+export default home;
