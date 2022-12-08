@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Navbar from '../../components/navbar/navbar';
+import "./login.css"
 
 export default class Login extends Component {
     constructor(props) {
@@ -38,11 +40,13 @@ export default class Login extends Component {
       }
     render() {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <h3>Sign In</h3>
+      <div>
+      <Navbar/>
+      <form className="login" onSubmit={this.handleSubmit}>
+        <h3>Sign In to RentPe</h3>
 
         <div className="mb-3">
-          <label>Email address</label>
+          <label>Email</label>
           <input
             type="email"
             className="form-control"
@@ -63,14 +67,21 @@ export default class Login extends Component {
 
         <div className="mb-3">
           <div className="custom-control custom-checkbox">
-            <input
+          <div>
+              <input
               type="checkbox"
               className="custom-control-input"
               id="customCheck1"
             />
-            <label className="custom-control-label" htmlFor="customCheck1">
-              Remember me
+              <label className="custom-control-label" htmlFor="customCheck1">
+                Remember me
             </label>
+            </div>
+            <div className='remember'>
+              <p className="forgot-password text-right">
+            Forgot <a href="#">password</a>?
+            </p>
+            </div>
           </div>
         </div>
 
@@ -79,10 +90,11 @@ export default class Login extends Component {
             Submit
           </button>
         </div>
-        <p className="forgot-password text-right">
-          Forgot <a href="#">password?</a>
+        <p className="forgot-password text-right newUser">
+          New user? <a href="#">Sign Up</a>
         </p>
       </form>
+      </div>
     )
   }
 }
