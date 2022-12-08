@@ -16,6 +16,10 @@ import {
   Link,
   Switch,
 } from "react-router-dom";
+import NProgress from "nprogress";
+import { ChakraProvider } from "@chakra-ui/react";
+import Layout from "./components/Layout/Layout"
+
 
 import Home from "./pages/home/home";
 
