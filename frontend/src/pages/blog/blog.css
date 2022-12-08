@@ -1,0 +1,12 @@
+.blog-heading{
+    margin-top: 10%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.blog-text {
+    margin: 10%;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
