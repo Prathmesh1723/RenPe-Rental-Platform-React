@@ -2,7 +2,12 @@ import React from 'react'
 
 function buy() {
   return (
-    <div>buy</div>
+    <div>
+      
+      buy
+     
+    </div>
+    
   )
 }
 

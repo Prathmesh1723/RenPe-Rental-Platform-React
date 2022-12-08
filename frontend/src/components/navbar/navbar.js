@@ -4,73 +4,26 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import './navbar.css';
 
+
+
 function ColorSchemesExample() {
+
+  function burger() {
+    let menu = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menu.onclick = () => {
+      menu.classList.toggle('bx-x');
+      navbar.classList.toggle('open');
+    }
+  }
   return (
     <div>
-      {/* <br />
-      <Navbar bg="white" variant="white">
-        <Container>
-          <Navbar.Brand href="/"><div className="navbar-Title">Rent<span>Pe</span></div></Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link  href="Home">Home</Nav.Link>
-            <Nav.Link  href="About">About</Nav.Link>
-            <Nav.Link  href="Service">Service</Nav.Link>
-            <Nav.Link  href="Blog">Blog</Nav.Link>
-            <Nav.Link  href="Contact">Contact</Nav.Link>
-          </Nav>
-          <Button className='Sign-in-Btn' href="/signup" variant="outline-primary">Sign-up</Button>{''}
-        </Container>
-      </Navbar> */}
-
-      {/* try 1 */}
-      
-      {/* <header role="banner">
-      <nav class="navbar navbar-expand-md">
-        <div class="container">
-          <a class="navbar-brand" href="'/">RentPe</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav ml-auto pl-lg-5 pl-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Recipes</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  <a class="dropdown-item" href="#">Food Catering</a>
-                  <a class="dropdown-item" href="#">Drink &amp; Beverages</a>
-                  <a class="dropdown-item" href="#">Wedding &amp; Birthday</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item cta-btn">
-                <a class="nav-link" href="/login">Sign In</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
-      </nav>
-      </header> */}
 
       {/* try 2 */}
 
       <header>
-		  <a href="/" class="logo">RentPe</a>
+		  <a href="/" class="logo">Rent<span>Pe</span></a>
 
       <ul class="navbar">
         <li><a href="/">Home</a></li>
@@ -82,8 +35,14 @@ function ColorSchemesExample() {
 
       <div class="main">
         <a href="/login" class="user">Sign In</a>
-        <a href="/signup">Register</a>
-        <div class="bx bx-menu" id="menu-icon"></div>
+        <a href="/signup" class="register"><span>Register</span></a>
+        <div class="bx bx-menu" id="menu-icon" onClick={burger}>
+          <svg viewBox="0 0 100 80" width="40" height="40">
+            <rect width="70" height="3"></rect>
+            <rect y="20" width="70" height="3"></rect>
+            <rect y="40" width="70" height="3"></rect>
+          </svg>
+        </div>
       </div>
 	    </header>
 
