@@ -1,4 +1,5 @@
 import './card.css';
+import Button from 'react-bootstrap/Button';
 
 function GridExample() {
   return (
@@ -13,7 +14,7 @@ function GridExample() {
         <h4 className="card-title">Buy A Home</h4>
         <hr className="hr-light" />
         <p>Buy Your New Home with us in lowest<br />price on the market</p>
-        <div className="buttonAlign"><button>More</button></div>
+        <div className="buttonAlign"><Button href="/buy">Buy</Button>{''}</div>
       </div>
     </div>
     <div className="card_focus">
@@ -26,10 +27,10 @@ function GridExample() {
         <p>
           Rent a home with us and we will find<br />reliable buyers for you
         </p>
-        <div className="buttonAlign"><button>More</button></div>
+        <div className="buttonAlign"><Button href="/rent">Rent</Button>{''}</div>
       </div>
     </div>
-    <div className="card_focus">
+    {/* <div className="card_focus">
       <div className="card_focus-header">
         <img src="/assets/sell.jpg" alt="Card image cap"/>
       </div>
@@ -43,7 +44,7 @@ function GridExample() {
         <div className="buttonAlign"><button>More</button></div>
         <br /><br />
       </div>
-    </div>
+    </div> */}
   </div>
   </div>
   );

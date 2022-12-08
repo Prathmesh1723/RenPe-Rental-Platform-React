@@ -1,10 +1,12 @@
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function KitchenSinkExample() {
   return (
     <div className="card-testimonial">
-      <Card className="card-testimonial-body" style={{ width: "23rem" }}>
+      <Card className="card-testimonial-body mx-auto" style={{ width: "30%" }}>
         <Card.Img variant="top" src="assets/house3.jpg" />
         <Card.Body>
           <Card.Title>RUDY</Card.Title>
@@ -15,7 +17,7 @@ function KitchenSinkExample() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className="card-testimonial-body" style={{ width: "23rem" }}>
+      <Card className="card-testimonial-body mx-auto" style={{ width: "30%" }}>
         <Card.Img variant="top" src="assets/house3.jpg" />
         <Card.Body>
           <Card.Title>JASON</Card.Title>
@@ -26,7 +28,7 @@ function KitchenSinkExample() {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card className="card-testimonial-body" style={{ width: "25rem" }}>
+      <Card className="card-testimonial-body mx-auto" style={{ width: "30%" }}>
         <Card.Img variant="top" src="assets/house3.jpg" />
         <Card.Body>
           <Card.Title>JOSHUA</Card.Title>

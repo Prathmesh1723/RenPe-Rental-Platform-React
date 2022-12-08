@@ -70,19 +70,19 @@ function ColorSchemesExample() {
       {/* try 2 */}
 
       <header>
-		  <a href="#" class="logo">RentPe</a>
+		  <a href="/" class="logo">RentPe</a>
 
       <ul class="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About Us</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
 
       <div class="main">
-        <a href="#" class="user">Sign In</a>
-        <a href="#">Register</a>
+        <a href="/login" class="user">Sign In</a>
+        <a href="/signup">Register</a>
         <div class="bx bx-menu" id="menu-icon"></div>
       </div>
 	    </header>
