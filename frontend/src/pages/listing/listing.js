@@ -9,6 +9,7 @@ import NProgress from "nprogress";
 import { ChakraProvider } from "@chakra-ui/react";
 import Layout from "../../components/Layout/Layout";
 import Search from '../search/search';
+import Layoutlisting from '../../components/Layout/Layout-listings';
 
 
 const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, imageUrl }) => (
@@ -25,15 +26,24 @@ const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, linkName, i
     </Flex>
 )
  
-function Buy(myBuy) {
+function Listings(myBuy, myRental) {
 
     const [buy, setbuy] = useState([]);
+    const [rental, setrental] = useState([]);
 
     const getbuy = () => {
         fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&query=canada&purpose=for-sale&hitsPerPage=6`)
         .then((response) => {
             console.log(response.hits);
             setbuy(response.hits);
+        });
+    };
+
+    const getRent = () => {
+        fetchApi(`${baseUrl}/properties/list?locationExternalIDs=5002&purpose=for-rent&hitsPerPage=6`)
+        .then((response) => {
+            console.log(response.hits);
+            setrental(response.hits);
         });
     };
     // useEffect(() => {
@@ -44,7 +54,9 @@ function Buy(myBuy) {
     //         console.log(newData);
     // }, []);
 
+    useEffect(() => getRent(),[]);
     useEffect(() => getbuy(),[]);
+    
     
 
   return (
@@ -64,9 +76,32 @@ function Buy(myBuy) {
         imageUrl="https://cdn.jhmrad.com/wp-content/uploads/new-home-designs-latest-modern-small-homes-ideas_115820.jpg"
         />
         <ChakraProvider>
-            <Layout>
+            <Layoutlisting>
     <Flex flexWrap="wrap">
         {buy.map((property) => <Property property={property} key={property.id} />)}
+    </Flex>
+    </Layoutlisting>
+    </ChakraProvider>
+    <br/>
+    <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className="heading"><h1>RENT</h1></div>
+        <Banner 
+        purpose="RENT A HOME"
+        title1="Rental Homes for"
+        title2="Everyone"
+        desc1="Explore Apartments, Villas, Homes"
+        desc2="and more"
+        buttonText="Explore Routing"
+        linkName="/search?purpose=for-rent"
+        imageUrl="https://managecasa.com/wp-content/uploads/2020/04/shutterstock_apartment-building-lowres-964x460.jpg"
+        />
+        <ChakraProvider>
+            <Layout>
+    <Flex flexWrap="wrap">
+        {rental.map((property) => <Property property={property} key={property.id} />)}
     </Flex>
     </Layout>
     </ChakraProvider>
@@ -75,4 +110,4 @@ function Buy(myBuy) {
 }
 
 
-export default Buy;
+export default Listings;
